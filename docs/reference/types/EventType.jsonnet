@@ -1,0 +1,4 @@
+{
+  Log: "log",
+  Metric: "metric",
+}

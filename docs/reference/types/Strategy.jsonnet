@@ -1,0 +1,4 @@
+{
+  Daemon: "daemon",
+  Sidecar: "sidecar"
+}
