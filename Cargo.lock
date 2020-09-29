@@ -4144,6 +4144,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust_decimal"
+version = "1.8.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c9e81662973c7a8d9663e64a0de4cd642b89a21d64966e3d99606efdc5fb0cc6"
+dependencies = [
+ "num-traits",
+ "serde",
+]
+
+[[package]]
 name = "rustc-demangle"
 version = "0.1.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -5606,6 +5616,16 @@ dependencies = [
 
 [[package]]
 name = "uuid"
+version = "0.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "90dbc611eb48397705a6b0f6e917da23ae517e4d127123d2cf7674206627d32a"
+dependencies = [
+ "rand 0.6.5",
+ "serde",
+]
+
+[[package]]
+name = "uuid"
 version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9fde2f6a4bea1d6e007c4ad38c6839fa71cbb63b6dbf5b595aa38dc9b1093c11"
@@ -5654,6 +5674,7 @@ dependencies = [
  "db-key",
  "derivative 1.0.4",
  "derive_is_enum_variant",
+ "digest 0.9.0",
  "dirs 3.0.1",
  "elastic_responses",
  "evmap",
@@ -5726,6 +5747,7 @@ dependencies = [
  "rusoto_s3",
  "rusoto_signature",
  "rusoto_sts",
+ "rust_decimal",
  "schannel",
  "seahash",
  "security-framework 0.4.4",
@@ -5733,6 +5755,7 @@ dependencies = [
  "serde_json",
  "serde_yaml",
  "sha-1 0.9.1",
+ "sha2",
  "smpl_jwt",
  "snafu",
  "stream-cancel",
@@ -5761,7 +5784,7 @@ dependencies = [
  "tracing-tower",
  "typetag",
  "url",
- "uuid 0.8.1",
+ "uuid 0.7.4",
  "vector-wasm",
  "walkdir",
  "warp",
